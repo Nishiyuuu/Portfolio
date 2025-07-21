@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/default.css">
     <title>Portfolio</title>
 </head>
 <body>
-    
+    <!--Header and hero-->
+    <div class="header and hero">
+        <header class="header">
+            <div class="header-container">
+                <p class="logo">Vladyslav B.</p>
+                <nav class="header-nav">
+                    <ul class="header-nav-menu">
+                        <li class="header-nav-menu-item">Home</li>
+                        <li class="header-nav-menu-item">About</li>
+                        <li class="header-nav-menu-item">Portfolio</li>
+                        <li class="header-nav-menu-item">Hobby</li>
+                        <li class="header-nav-menu-item">Contact</li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input class="header-container-input" type="text" name="search" id="search" placeholder="Search...">
+                    <span class="header-container-input-icon"><svg width="12" height="12"><use href="./public/icons.svg#icon-search"></use></svg></span>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-left">
+                <h1 class="hero-left-title">Vladyslav B.</h1>
+                <p class="hero-left-about">Frontend developer | Full stack developer</p>
+                <p class="hero-left-description">With impeccable experience from concept to layout, I bring your ideas to life with clean code</p>
+                <button class="hero-left-btn">Learn more</button>
+            </div>
+            <div class="hero-right">
+                <img src="./public/me.png" alt="Me" />
+            </div>
+        </section>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
