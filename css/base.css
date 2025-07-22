@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #f8f5e5
+}
+
+ul,ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
