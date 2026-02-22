@@ -1,72 +1,70 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+
     <link rel="icon" href="./public/favicon.ico" />
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js" defer></script>
+
     <title>Portfolio</title>
   </head>
+
   <body>
-    <header class="bg-light py-3 shadow-sm">
+    <header class="py-3 shadow-sm border-bottom bg-body-tertiary">
       <div class="container d-flex justify-content-between align-items-center">
-        <nav>
+        <div class="fw-bold fs-5">Portfolio</div>
+
+        <nav class="d-none d-md-block">
           <ul class="nav">
             <li class="nav-item">
-              <a
-                class="nav-link text-dark fw-semibold"
-                href="#"
-                data-i18n="nav.home"
+              <a class="nav-link fw-semibold" href="#" data-i18n="nav.home"
                 >Головна</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link text-dark fw-semibold"
-                href="#"
-                data-i18n="nav.about"
+              <a class="nav-link fw-semibold" href="#" data-i18n="nav.about"
                 >Про мене</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link text-dark fw-semibold"
-                href="#"
-                data-i18n="nav.projects"
+              <a class="nav-link fw-semibold" href="#" data-i18n="nav.projects"
                 >Проекти</a
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link text-dark fw-semibold"
-                href="#"
-                data-i18n="nav.skills"
+              <a class="nav-link fw-semibold" href="#" data-i18n="nav.skills"
                 >Скіли</a
               >
             </li>
           </ul>
         </nav>
 
-        <div class="d-flex gap-2">
+        <div class="d-flex gap-2 align-items-center">
+          <button
+            class="btn btn-outline-secondary d-md-none"
+            data-bs-toggle="modal"
+            data-bs-target="#mobileMenu"
+          >
+            ☰
+          </button>
+
           <select
-            id="lang"
-            class="form-select form-select-sm border-primary text-primary fw-bold"
+            class="form-select form-select-sm fw-bold lang-selector d-none d-md-block"
             style="width: 80px"
           >
             <option value="uk">UA</option>
             <option value="pl">PL</option>
             <option value="en">EN</option>
           </select>
+
           <select
-            id="theme"
-            class="form-select form-select-sm border-primary text-primary fw-bold"
+            class="form-select form-select-sm fw-bold theme-selector d-none d-md-block"
             style="width: 90px"
           >
             <option value="light">Light</option>
@@ -75,5 +73,61 @@
         </div>
       </div>
     </header>
+
+    <div class="modal fade" id="mobileMenu" tabindex="-1">
+      <div class="modal-dialog modal-fullscreen-sm-down">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <ul class="nav flex-column mb-4">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#" data-i18n="nav.home"
+                  >Головна</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#" data-i18n="nav.about"
+                  >Про мене</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-semibold"
+                  href="#"
+                  data-i18n="nav.projects"
+                  >Проекти</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#" data-i18n="nav.skills"
+                  >Скіли</a
+                >
+              </li>
+            </ul>
+
+            <select class="form-select mb-3 lang-selector">
+              <option value="uk">UA</option>
+              <option value="pl">PL</option>
+              <option value="en">EN</option>
+            </select>
+
+            <select class="form-select theme-selector">
+              <option value="light">Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
