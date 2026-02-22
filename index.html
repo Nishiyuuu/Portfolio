@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./public/favicon.ico" />
     <script src="./js/main.js" defer></script>
 
@@ -74,6 +74,96 @@
       </div>
     </header>
 
+    <section id="home">
+      <div class="container">
+        <!-- Avatar -->
+        <img
+          src="./public/avatar.png"
+          alt="Vladyslav"
+          class="rounded-circle shadow mb-4"
+          width="150"
+          height="150"
+        />
+
+        <!-- Name / Role / Tagline -->
+        <h1 class="fw-bold mb-2" data-i18n="hero.name">Vladyslav</h1>
+        <h2 class="fw-semibold mb-3 text-secondary" data-i18n="hero.role">
+          Frontend Developer
+        </h2>
+        <p class="mb-4 fst-italic text-muted" data-i18n="hero.tagline">
+          Crafting sleek, fast and modern web apps.
+        </p>
+
+        <!-- Buttons -->
+        <div class="hero-buttons mb-4">
+          <a
+            href="#projects"
+            class="btn btn-primary btn-lg"
+            data-i18n="hero.btnProjects"
+            >View Projects</a
+          >
+          <button
+            class="btn btn-outline-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#contactModal"
+            data-i18n="hero.btnContact"
+          >
+            Contact Me
+          </button>
+        </div>
+
+        <!-- Stack badges -->
+        <div class="hero-stack">
+          <span class="badge bg-primary">HTML5</span>
+          <span class="badge bg-primary">CSS3</span>
+          <span class="badge bg-primary">JavaScript</span>
+          <span class="badge bg-primary">React</span>
+          <span class="badge bg-primary">MongoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-body-tertiary">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-4" data-i18n="skills.title">My Skills</h2>
+        <p class="text-muted mb-5" data-i18n="skills.subtitle">
+          Technologies I use to craft modern web applications
+        </p>
+
+        <div class="d-flex justify-content-center flex-wrap gap-4">
+          <!-- HTML5 -->
+          <div class="skill-circle">
+            <img src="./public/logos/html5.svg" alt="HTML5" />
+            <span>HTML5</span>
+          </div>
+
+          <!-- CSS3 -->
+          <div class="skill-circle">
+            <img src="./public/logos/css3.svg" alt="CSS3" />
+            <span>CSS3</span>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-circle">
+            <img src="./public/logos/javascript.svg" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+
+          <!-- React -->
+          <div class="skill-circle">
+            <img src="./public/logos/react.svg" alt="React" />
+            <span>React</span>
+          </div>
+
+          <!-- MongoDB -->
+          <div class="skill-circle">
+            <img src="./public/logos/mongodb.svg" alt="MongoDB" />
+            <span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div class="modal fade" id="mobileMenu" tabindex="-1">
       <div class="modal-dialog modal-fullscreen-sm-down">
         <div class="modal-content">
@@ -123,6 +213,80 @@
               <option value="light">Light</option>
               <option value="dark">Dark</option>
             </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" data-i18n="contact.title">Contact Me</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="text-center mb-3" data-i18n="contact.subtitle">
+              Drop me a message or reach out directly:
+            </p>
+
+            <div class="d-flex justify-content-center gap-2 mb-3 flex-wrap">
+              <a
+                href="mailto:bickovskyijvlad53@gmail.com"
+                class="btn btn-primary"
+                data-i18n="contact.email"
+                >Email</a
+              >
+              <a
+                href="https://t.me/Nishiyyu"
+                target="_blank"
+                class="btn btn-outline-primary"
+                data-i18n="contact.telegram"
+                >Telegram</a
+              >
+            </div>
+
+            <form id="contactForm">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  name="message"
+                  rows="3"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary w-100"
+                data-i18n="contact.send"
+              >
+                Send
+              </button>
+            </form>
           </div>
         </div>
       </div>

@@ -1,0 +1,55 @@
+.skill-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--bs-body-bg); /* адаптивно до light/dark */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  padding: 10px;
+}
+
+.skill-circle img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 8px;
+}
+
+.skill-circle span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.skill-circle:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 15px; /* адаптивні бокові відступи */
+  text-align: center;
+}
+
+#home .hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#home .hero-stack {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}

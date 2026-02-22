@@ -1,20 +1,38 @@
 {
   "uk": {
-    "nav.home": "Головна",
-    "nav.about": "Про мене",
-    "nav.projects": "Проекти",
-    "nav.skills": "Скіли"
+    "hero.name": "Владислав",
+    "hero.role": "Фронтенд-розробник",
+    "hero.tagline": "Створюю стильні, швидкі та сучасні веб-додатки.",
+    "hero.btnProjects": "Проекти",
+    "hero.btnContact": "Контакт",
+    "contact.title": "Контакт",
+    "contact.subtitle": "Напиши мені повідомлення або зв'яжись безпосередньо:",
+    "contact.email": "Пошта",
+    "contact.telegram": "Telegram",
+    "contact.send": "Відправити"
   },
   "pl": {
-    "nav.home": "Strona główna",
-    "nav.about": "O mnie",
-    "nav.projects": "Projekty",
-    "nav.skills": "Umiejętności"
+    "hero.name": "Vladyslav",
+    "hero.role": "Frontend Developer",
+    "hero.tagline": "Tworzę nowoczesne, szybkie i eleganckie aplikacje webowe.",
+    "hero.btnProjects": "Projekty",
+    "hero.btnContact": "Kontakt",
+    "contact.title": "Kontakt",
+    "contact.subtitle": "Napisz do mnie wiadomość lub skontaktuj się bezpośrednio:",
+    "contact.email": "Email",
+    "contact.telegram": "Telegram",
+    "contact.send": "Wyślij"
   },
   "en": {
-    "nav.home": "Home",
-    "nav.about": "About",
-    "nav.projects": "Projects",
-    "nav.skills": "Skills"
+    "hero.name": "Vladyslav",
+    "hero.role": "Frontend Developer",
+    "hero.tagline": "Crafting sleek, fast and modern web apps.",
+    "hero.btnProjects": "View Projects",
+    "hero.btnContact": "Contact Me",
+    "contact.title": "Contact Me",
+    "contact.subtitle": "Drop me a message or reach out directly:",
+    "contact.email": "Email",
+    "contact.telegram": "Telegram",
+    "contact.send": "Send"
   }
 }
