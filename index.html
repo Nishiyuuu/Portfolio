@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./public/favicon.ico" />
     <script src="./js/main.js" defer></script>
-
     <title>Portfolio</title>
   </head>
 
@@ -19,26 +18,22 @@
     <header class="py-3 shadow-sm border-bottom bg-body-tertiary">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="fw-bold fs-5">Portfolio</div>
-
         <nav class="d-none d-md-block">
           <ul class="nav">
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="#home" data-i18n="nav.home"
-                >Головна</a
-              >
+                >Головна</a>
             </li>
             <li class="nav-item">
               <a
                 class="nav-link fw-semibold"
                 href="#skills"
                 data-i18n="nav.skills"
-                >Навички</a
-              >
+                >Навички</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="#" data-i18n="nav.projects"
-                >Проекти</a
-              >
+                >Проекти</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-semibold" href="#about" data-i18n="nav.about"
@@ -47,7 +42,6 @@
             </li>
           </ul>
         </nav>
-
         <div class="d-flex gap-2 align-items-center">
           <button
             class="btn btn-outline-secondary d-md-none"
@@ -58,8 +52,9 @@
           </button>
 
           <select
-            class="form-select form-select-sm fw-bold lang-selector d-none d-md-block"
-            style="width: 80px"
+            class="form-select form-select-sm fw-bold d-none d-md-block lang-selector"
+            style="width: auto; min-width: 70px; border-radius: 12px; border: 1px solid rgba(13, 110, 253, 0.3); font-size: 0.9rem;"
+            title="Select language"
           >
             <option value="uk">UA</option>
             <option value="pl">PL</option>
@@ -67,11 +62,12 @@
           </select>
 
           <select
-            class="form-select form-select-sm fw-bold theme-selector d-none d-md-block"
-            style="width: 90px"
+            class="form-select form-select-sm fw-bold d-none d-md-block theme-selector"
+            style="width: auto; min-width: 100px; border-radius: 12px; border: 1px solid rgba(13, 110, 253, 0.3); font-size: 0.9rem;"
+            title="Select theme"
           >
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
+            <option value="light" data-i18n="theme.light">Light</option>
+            <option value="dark" data-i18n="theme.dark">Dark</option>
           </select>
         </div>
       </div>
@@ -79,7 +75,6 @@
 
     <section id="home" class="py-5 shadow-sm border-bottom">
       <div class="container text-center">
-        <!-- Avatar -->
         <img
           src="./public/avatar.png"
           alt="Vladyslav"
@@ -87,8 +82,6 @@
           width="150"
           height="150"
         />
-
-        <!-- Name / Role / Tagline -->
         <h1 class="fw-bold mb-2" data-i18n="hero.name">Vladyslav</h1>
         <h2 class="fw-semibold mb-3 text-secondary" data-i18n="hero.role">
           Frontend Developer
@@ -96,15 +89,12 @@
         <p class="mb-4 fst-italic text-muted" data-i18n="hero.tagline">
           Crafting sleek, fast and modern web apps.
         </p>
-
-        <!-- Buttons -->
         <div class="hero-buttons mb-4">
           <a
             href="#projects"
             class="btn btn-primary btn-lg"
             data-i18n="hero.btnProjects"
-            >View Projects</a
-          >
+            >View Projects</a>
           <button
             class="btn btn-outline-primary btn-lg"
             data-bs-toggle="modal"
@@ -124,7 +114,6 @@
         </p>
 
         <div class="d-flex justify-content-center flex-wrap gap-4">
-          <!-- HTML5 -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -137,8 +126,6 @@
             <img src="./public/logos/html5.svg" alt="HTML5" />
             <span>HTML5</span>
           </div>
-
-          <!-- CSS3 -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -151,8 +138,6 @@
             <img src="./public/logos/css3.svg" alt="CSS3" />
             <span>CSS3</span>
           </div>
-
-          <!-- Boostrap -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -163,10 +148,8 @@
             data-url="https://getbootstrap.com/"
           >
             <img src="./public/logos/bootstrap.svg" alt="bootstrap" />
-            <span>Boostrap</span>
+            <span>Bootstrap</span>
           </div>
-
-          <!-- JavaScript -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -179,8 +162,6 @@
             <img src="./public/logos/javascript.svg" alt="JavaScript" />
             <span>JavaScript</span>
           </div>
-
-          <!-- React -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -193,8 +174,6 @@
             <img src="./public/logos/react.svg" alt="React" />
             <span>React</span>
           </div>
-
-          <!-- MongoDB -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -207,8 +186,6 @@
             <img src="./public/logos/mongodb.svg" alt="MongoDB" />
             <span>MongoDB</span>
           </div>
-
-          <!-- Figma -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -221,7 +198,6 @@
             <img src="./public/logos/figma.svg" alt="MongoDB" />
             <span>Figma</span>
           </div>
-          <!-- Git -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -234,7 +210,6 @@
             <img src="./public/logos/git.svg" alt="Git" />
             <span>Git</span>
           </div>
-          <!-- GitHub -->
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -250,123 +225,122 @@
         </div>
       </div>
     </section>
-    <section id="about" class="py-5">
-  <div class="container">
-    
-    <h2 class="mb-4 text-center" data-i18n="about.title"></h2>
-
-    <p class="about-main-text text-center mb-5" data-i18n="about.intro"></p>
-
-    <div class="row g-4 mb-5">
-
-      <div class="col-md-6">
-        <div class="about-box p-4 h-100 border rounded-4">
-          <h5 data-i18n="about.mindset.title"></h5>
-          <p class="about-main-text text-body" data-i18n="about.mindset.text"></p>
+    <section id="about" class="py-5 border-bottom bg-body-tertiary">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-3" data-i18n="about.title">About Me</h2>
+          <p class="text-muted fs-5" data-i18n="about.subtitle">
+            Developer focused on growth, quality and real-world problem solving
+          </p>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <p class="mb-3" data-i18n="about.text1"></p>
+            <p class="mb-3" data-i18n="about.text2"></p>
+            <p class="mb-4" data-i18n="about.text3"></p>
+            <div class="experience-box p-4 rounded-4 mb-4 shadow-sm" style="border-left: 6px solid var(--bs-primary);">
+              <h3 class="fw-bold mb-3" data-i18n="about.expTitle"></h3>
+              <p class="mb-0" data-i18n="about.expText"></p>
+            </div>
+            <div class="d-flex flex-wrap gap-3 align-items-center">
+              <a href="https://github.com/Nishiyuuu"
+                target="_blank"
+                class="btn btn-outline-primary btn-lg"
+                title="Visit GitHub">
+                <i class="bi bi-github"></i>
+                GitHub
+              </a>
+              <a href="https://linkedin.com/in/vladyslav-bychkovskyi-b8a65a303"
+                target="_blank"
+                class="btn btn-outline-primary btn-lg"
+                title="Visit LinkedIn">
+                <i class="bi bi-linkedin"></i>
+                LinkedIn
+              </a>
+              <a href="#projects"
+                class="btn btn-outline-primary btn-lg"
+                data-i18n="about.projectsBtn">
+              </a>
+              <button
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+                data-i18n="hero.btnContact">
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content p-4 rounded-4 shadow-sm" style="border-left: 6px solid var(--bs-primary);">
+                  <h6 class="fw-bold mb-1">KUL – Informatyka</h6>
+                  <small class="text-muted" data-i18n="about.kul"></small>
+                  <p class="mb-0 mt-2" data-i18n="about.kulDesc"></p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content p-4 rounded-4 shadow-sm" style="border-left: 6px solid var(--bs-primary);">
+                  <h6 class="fw-bold mb-1">GoIT – Full-Stack Developer</h6>
+                  <small class="text-muted" data-i18n="about.goit"></small>
+                  <p class="mb-0 mt-2" data-i18n="about.goitDesc"></p>
+                </div>
+              </div>
+              <div class="mt-2 text-center">
+              <a href="./certificates.html"
+                class="btn btn-outline-primary btn-lg"
+                data-i18n="about.certBtn">
+                <i class="bi bi-award-fill"></i>
+              </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="col-md-6">
-        <div class="about-box p-4 h-100 border rounded-4">
-          <h5 data-i18n="about.learning.title"></h5>
-          <p class="about-main-text text-body" data-i18n="about.learning.text"></p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row g-4">
-
-      <div class="col-md-6">
-        <div class="about-box p-4 h-100 border rounded-4">
-          <div class="about-date" data-i18n="about.kul.date">2022 – Present</div>
-          <h6>KUL — Informatyka</h6>
-          <p class="about-main-text text-body" data-i18n="about.kul.text"></p>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="about-box p-4 h-100 border rounded-4">
-          <div class="about-date" data-i18n="about.goit.date">2025 - Present</div>
-          <h6>GoIT — Fullstack JavaScript</h6>
-          <p class="about-main-text text-body" data-i18n="about.goit.text"></p>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row mt-4">
-  <div class="col-12">
-    <div class="about-box p-4 border rounded-4 text-center">
-
-      <h5 class="mb-3" data-i18n="about.connect.title"></h5>
-      <p class="about-main-text mb-4" data-i18n="about.connect.text"></p>
-
-      <div class="d-flex justify-content-center gap-3 flex-wrap">
-        <a href="https://github.com/Nishiyuuu" target="_blank" class="btn btn-outline-primary">
-          GitHub
-        </a>
-
-        <a href="https://linkedin.com/in/vladyslav-bychkovskyi-b8a65a303" target="_blank" class="btn btn-outline-primary">
-          LinkedIn
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
-  </div>
-</section>
-    
+    </section>
 
     <div class="modal fade" id="mobileMenu" tabindex="-1">
       <div class="modal-dialog modal-fullscreen-sm-down">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Menu</h5>
+            <h5 class="modal-title" data-i18n="menu.label">Menu</h5>
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
             ></button>
           </div>
-
           <div class="modal-body text-center">
             <ul class="nav flex-column mb-4">
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="#home" data-i18n="nav.home"
-                  >Головна</a
-                >
+                  >Головна</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="#skills" data-i18n="nav.skills"
-                  >Навички</a
-                >
+                  >Навички</a>
               </li>
               <li class="nav-item">
                 <a
                   class="nav-link fw-semibold"
                   href="#"
                   data-i18n="nav.projects"
-                  >Проекти</a
-                >
+                  >Проекти</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="#about" data-i18n="nav.about"
-                  >Про мене</a
-                >
+                  >Про мене</a>
               </li>
             </ul>
-
-            <select class="form-select mb-3 lang-selector">
+            <select class="form-select mb-3 fw-bold lang-selector" style="border-radius: 12px; border: 1px solid rgba(13, 110, 253, 0.3);" title="Select language">
               <option value="uk">UA</option>
               <option value="pl">PL</option>
               <option value="en">EN</option>
             </select>
-
-            <select class="form-select theme-selector">
-              <option value="light">Light</option>
-              <option value="dark">Dark</option>
+            <select class="form-select fw-bold theme-selector" style="border-radius: 12px; border: 1px solid rgba(13, 110, 253, 0.3);" title="Select theme">
+              <option value="light" data-i18n="theme.light">Light</option>
+              <option value="dark" data-i18n="theme.dark">Dark</option>
             </select>
           </div>
         </div>
@@ -383,28 +357,23 @@
               data-bs-dismiss="modal"
             ></button>
           </div>
-
           <div class="modal-body">
             <p class="text-center mb-3" data-i18n="contact.subtitle">
               Drop me a message or reach out directly:
             </p>
-
             <div class="d-flex justify-content-center gap-2 mb-3 flex-wrap">
               <a
                 href="mailto:bickovskyijvlad53@gmail.com"
                 class="btn btn-primary"
                 data-i18n="contact.email"
-                >Email</a
-              >
+                >Email</a>
               <a
                 href="https://t.me/Nishiyyu"
                 target="_blank"
                 class="btn btn-outline-primary"
                 data-i18n="contact.telegram"
-                >Telegram</a
-              >
+                >Telegram</a>
             </div>
-
             <form id="contactForm">
               <div class="mb-3">
                 <input
@@ -412,6 +381,7 @@
                   class="form-control"
                   placeholder="Name"
                   name="name"
+                  data-i18n-placeholder="form.name"
                   required
                 />
               </div>
@@ -421,6 +391,7 @@
                   class="form-control"
                   placeholder="Email"
                   name="email"
+                  data-i18n-placeholder="form.email"
                   required
                 />
               </div>
@@ -429,6 +400,7 @@
                   class="form-control"
                   placeholder="Message"
                   name="message"
+                  data-i18n-placeholder="form.message"
                   rows="3"
                   required
                 ></textarea>
@@ -448,17 +420,14 @@
     <div class="modal fade" id="skillModal" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-
           <div class="modal-header">
             <h5 class="modal-title"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-
           <div class="modal-body text-center">
             <p></p>
             <a href="#" target="_blank" class="btn btn-primary"></a>
           </div>
-
         </div>
       </div>
     </div>

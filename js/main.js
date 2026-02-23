@@ -12,6 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
       const key = el.dataset.i18n;
       if (dict[key] !== undefined) el.textContent = dict[key];
     });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.dataset.i18nPlaceholder;
+      if (dict[key] !== undefined) el.placeholder = dict[key];
+    });
+    document.querySelectorAll("option[data-i18n]").forEach((el) => {
+      const key = el.dataset.i18n;
+      if (dict[key] !== undefined) el.textContent = dict[key];
+    });
   };
 
   const setLanguage = (lang) => {
@@ -29,8 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const saved = localStorage.getItem("siteLang");
       const lang = translations[saved] ? saved : "en";
       setLanguage(lang);
-
-      // Set up modal handlers after translations are loaded
       const modal = document.getElementById("skillModal");
       if (modal) {
         const modalTitle = modal.querySelector(".modal-title");

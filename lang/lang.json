@@ -54,22 +54,18 @@
     "modal.github.btn": "Деталі",
 
     "about.title": "Про мене",
-    "about.intro": "Створюю сучасні веб-інтерфейси та системи. Навчаюсь на спеціальності Інформатика та активно розвиваюсь як Fullstack JavaScript розробник.",
-
-    "about.mindset.title": "Підхід",
-    "about.mindset.text": "Зосереджуюсь на чистому, структурованому та масштабованому коді. Мені цікаво перетворювати ідеї у працюючі продукти та постійно поглиблювати технічні знання.",
-
-    "about.learning.title": "Поточний фокус",
-    "about.learning.text": "Поглиблюю знання в архітектурі фронтенду, екосистемі React, бекенд-логіці на Node.js та проєктуванні баз даних MongoDB.",
-
-    "about.kul.date": "2023 - Зараз",
-    "about.kul.text": "Вивчаю фундаментальні дисципліни комп’ютерних наук: алгоритми, структури даних, бази даних та системні основи.",
-
-    "about.goit.date": "2024 - Зараз",
-    "about.goit.text": "Практична fullstack-програма з фокусом на JavaScript, React, бекенд-логіку та створення реальних проєктів.",
-
-    "about.connect.title": "Профілі",
-    "about.connect.text": "Переглянути код, активність та професійний профіль можна тут."
+    "about.subtitle": "Розробник, сфокусований на розвитку, якості та реальних задачах",
+    "about.text1": "Я фронтенд-розробник, який будує сучасні, адаптивні та зручні веб-додатки. Для мене важливо не просто щоб працювало, а щоб виглядало професійно та було логічним для користувача.",
+    "about.text2": "Постійно вдосконалюю навички у JavaScript, React та роботі з backend-частиною. Працюю над особистими проєктами, експериментую з новими підходами та покращую архітектуру коду.",
+    "about.text3": "Цікавлюсь чистою структурою проєкту, продуктивністю та UX-деталями. Вважаю, що сильний розробник — це той, хто вчиться постійно.",
+    "about.expTitle": "Досвід",
+    "about.expText": "Комерційного досвіду поки що не маю, але активно працюю над pet-проєктами та відкритий до першої можливості приєднатися до команди як Junior Frontend / Full-Stack Developer.",
+    "about.projectsBtn": "Більш детально з проектами можна ознайомитись тут",
+    "about.kul": "2023 – теперішній час",
+    "about.goit": "2024 – теперішній час",
+    "about.kulDesc": "Навчаюсь за спеціальністю Інформатика. Вивчаю алгоритми, структури даних, бази даних та фундаментальні принципи програмування.",
+    "about.goitDesc": "Проходжу програму Full-Stack Developer, де поглиблено вивчаю JavaScript, React, Node.js та роботу з реальними проєктами.",
+    "about.certBtn": "Мої дипломи та сертифікати"
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -126,22 +122,18 @@
     "modal.github.btn": "Szczegóły",
 
     "about.title": "O mnie",
-    "about.intro": "Tworzę nowoczesne interfejsy i systemy webowe. Studiuję informatykę i rozwijam się jako Fullstack JavaScript developer.",
-
-    "about.mindset.title": "Podejście",
-    "about.mindset.text": "Skupiam się na czystym, uporządkowanym i skalowalnym kodzie. Lubię zamieniać pomysły w działające produkty oraz stale pogłębiać wiedzę techniczną.",
-
-    "about.learning.title": "Aktualny kierunek",
-    "about.learning.text": "Rozwijam się w architekturze frontendu, ekosystemie React, logice backendowej w Node.js oraz projektowaniu baz danych MongoDB.",
-
-    "about.kul.date": "2023 - Obecnie",
-    "about.kul.text": "Studiuję kluczowe zagadnienia informatyki: algorytmy, struktury danych, bazy danych oraz podstawy systemów.",
-
-    "about.goit.date": "2024 - Obecnie",
-    "about.goit.text": "Praktyczny kurs fullstack z naciskiem na JavaScript, React, backend oraz tworzenie realnych projektów.",
-
-    "about.connect.title": "Profile",
-    "about.connect.text": "Tutaj można zobaczyć mój kod, aktywność oraz profil zawodowy."
+    "about.subtitle": "Developer nastawiony na rozwój, jakość i realne problemy",
+    "about.text1": "Jestem frontend developerem tworzącym nowoczesne i responsywne aplikacje webowe. Zależy mi nie tylko na działaniu, ale też na jakości kodu i UX.",
+    "about.text2": "Rozwijam się w JavaScript, React oraz technologii backend. Pracuję nad własnymi projektami i stale ulepszam strukturę kodu.",
+    "about.text3": "Interesuje mnie czysta architektura, wydajność i detale UX. Uważam, że dobry developer nigdy nie przestaje się uczyć.",
+    "about.expTitle": "Doświadczenie",
+    "about.expText": "Nie posiadam jeszcze komercyjnego doświadczenia, ale aktywnie tworzę projekty własne i jestem otwarty na pierwszą pracę jako Junior Frontend / Full-Stack Developer.",
+    "about.projectsBtn": "Więcej szczegółów o projektach znajdziesz tutaj",
+    "about.kul": "2023 – obecnie",
+    "about.goit": "2024 – obecnie",
+    "about.kulDesc": "Studiuję Informatykę. Uczę się algorytmów, struktur danych, baz danych oraz podstaw inżynierii oprogramowania.",
+    "about.goitDesc": "Realizuję program Full-Stack Developer, koncentrując się na JavaScript, React, Node.js i pracy projektowej.",
+    "about.certBtn": "Moje dyplomy i certyfikaty"
   },
   "en": {
     "nav.home": "Home",
@@ -198,21 +190,17 @@
     "modal.github.btn": "See Details",
 
     "about.title": "About Me",
-    "about.intro": "I build modern web interfaces and systems. Currently studying Computer Science and actively growing as a Fullstack JavaScript developer.",
-
-    "about.mindset.title": "Approach",
-    "about.mindset.text": "I focus on writing clean, structured and scalable code. I enjoy turning ideas into working products and continuously deepening my technical expertise.",
-
-    "about.learning.title": "Current Focus",
-    "about.learning.text": "Improving my knowledge in frontend architecture, the React ecosystem, backend logic with Node.js, and database design with MongoDB.",
-
-    "about.kul.date": "2023 - Present",
-    "about.kul.text": "Studying core computer science disciplines including algorithms, data structures, databases, and system fundamentals.",
-
-    "about.goit.date": "2024 - Present",
-    "about.goit.text": "Hands-on fullstack program focused on JavaScript, React, backend development, and building real-world projects.",
-
-    "about.connect.title": "Profiles",
-    "about.connect.text": "You can explore my code, activity and professional background here."
+    "about.subtitle": "Developer focused on growth, quality and real-world problem solving",
+    "about.text1": "I'm a frontend developer building modern and responsive web applications. I care not only about functionality but also about clean architecture and user experience.",
+    "about.text2": "Continuously improving my JavaScript, React and backend skills. I work on personal projects and experiment with modern development approaches.",
+    "about.text3": "I'm interested in clean project structure, performance optimization and UX details. I believe strong developers never stop learning.",
+    "about.expTitle": "Experience",
+    "about.expText": "I don't have commercial experience yet, but I actively build personal projects and I'm open to my first opportunity as a Junior Frontend / Full-Stack Developer.",
+    "about.projectsBtn": "You can explore my projects in more detail here",
+    "about.kul": "2023 – present",
+    "about.goit": "2024 – present",
+    "about.kulDesc": "Studying Computer Science. Learning algorithms, data structures, databases and software engineering fundamentals.",
+    "about.goitDesc": "Completing a Full-Stack Developer program focused on JavaScript, React, Node.js and real project experience.",
+    "about.certBtn": "View My Diplomas & Certificates"
   }
 }
