@@ -23,7 +23,7 @@
         <nav class="d-none d-md-block">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#" data-i18n="nav.home"
+              <a class="nav-link fw-semibold" href="#home" data-i18n="nav.home"
                 >Головна</a
               >
             </li>
@@ -38,7 +38,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#" data-i18n="nav.skills"
+              <a
+                class="nav-link fw-semibold"
+                href="#skills"
+                data-i18n="nav.skills"
                 >Скіли</a
               >
             </li>
@@ -111,18 +114,8 @@
             Contact Me
           </button>
         </div>
-
-        <!-- Stack badges -->
-        <div class="hero-stack">
-          <span class="badge bg-primary">HTML5</span>
-          <span class="badge bg-primary">CSS3</span>
-          <span class="badge bg-primary">JavaScript</span>
-          <span class="badge bg-primary">React</span>
-          <span class="badge bg-primary">MongoDB</span>
-        </div>
       </div>
     </section>
-
     <section id="skills" class="py-5 bg-body-tertiary">
       <div class="container text-center">
         <h2 class="fw-bold mb-4" data-i18n="skills.title">My Skills</h2>
@@ -133,8 +126,10 @@
         <div class="d-flex justify-content-center flex-wrap gap-4">
           <!-- HTML5 -->
           <div class="skill-circle">
-            <img src="./public/logos/html5.svg" alt="HTML5" />
-            <span>HTML5</span>
+            <a>
+              <img src="./public/logos/html5.svg" alt="HTML5" />
+              <span>HTML5</span>
+            </a>
           </div>
 
           <!-- CSS3 -->
