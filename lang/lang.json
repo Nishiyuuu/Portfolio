@@ -3,7 +3,7 @@
     "nav.home": "Головна",
     "nav.about": "Про мене",
     "nav.projects": "Проекти",
-    "nav.skills": "Скіли",
+    "nav.skills": "Навички",
     "hero.name": "Владислав",
     "hero.role": "Фронтенд-розробник",
     "hero.tagline": "Створюю стильні, швидкі та сучасні веб-додатки.",
@@ -13,7 +13,45 @@
     "contact.subtitle": "Напиши мені повідомлення або зв'яжись безпосередньо:",
     "contact.email": "Пошта",
     "contact.telegram": "Telegram",
-    "contact.send": "Відправити"
+    "contact.send": "Відправити",
+    "skills.title": "Мої Навички",
+    "skills.subtitle": "Технології, які я використовую для створення сучасних веб-додатків",
+
+    "modal.html.title": "HTML5",
+    "modal.html.body": "HTML5 — стандартна мова розмітки для створення веб-сторінок та веб-додатків.",
+    "modal.html.btn": "Деталі",
+
+    "modal.css.title": "CSS3",
+    "modal.css.body": "CSS3 використовується для стилізації та верстки веб-сторінок, включаючи анімації та адаптивний дизайн.",
+    "modal.css.btn": "Деталі",
+
+    "modal.js.title": "JavaScript",
+    "modal.js.body": "JavaScript — мова програмування для створення динамічного та інтерактивного веб-контенту.",
+    "modal.js.btn": "Деталі",
+
+    "modal.react.title": "React",
+    "modal.react.body": "React — бібліотека JavaScript для створення інтерфейсів користувача з повторно використовуваними компонентами.",
+    "modal.react.btn": "Деталі",
+
+    "modal.mongo.title": "MongoDB",
+    "modal.mongo.body": "MongoDB — NoSQL база даних, що зберігає дані у гнучких документах JSON-подібного формату.",
+    "modal.mongo.btn": "Деталі",
+
+    "modal.bootstrap.title": "Bootstrap",
+    "modal.bootstrap.body": "Bootstrap — популярний фронтенд-фреймворк для швидкого створення адаптивних веб-сторінок і компонентів.",
+    "modal.bootstrap.btn": "Деталі",
+
+    "modal.figma.title": "Figma",
+    "modal.figma.body": "Figma — хмарний інструмент для дизайну інтерфейсів та прототипування, що дозволяє працювати командно в реальному часі.",
+    "modal.figma.btn": "Деталі",
+
+    "modal.git.title": "Git",
+    "modal.git.body": "Git — розподілена система контролю версій, яка дозволяє відстежувати зміни у коді та координувати роботу команди.",
+    "modal.git.btn": "Деталі",
+
+    "modal.github.title": "GitHub",
+    "modal.github.body": "GitHub — онлайн-платформа для хостингу репозиторіїв Git, зручна для співпраці, обміну кодом та управління проєктами.",
+    "modal.github.btn": "Деталі"
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -29,7 +67,45 @@
     "contact.subtitle": "Napisz do mnie wiadomość lub skontaktuj się bezpośrednio:",
     "contact.email": "Email",
     "contact.telegram": "Telegram",
-    "contact.send": "Wyślij"
+    "contact.send": "Wyślij",
+    "skills.title": "Moje Umiejętności",
+    "skills.subtitle": "Technologie, których używam do tworzenia nowoczesnych aplikacji webowych",
+
+    "modal.html.title": "HTML5",
+    "modal.html.body": "HTML5 to standardowy język znaczników do tworzenia stron i aplikacji internetowych.",
+    "modal.html.btn": "Szczegóły",
+
+    "modal.css.title": "CSS3",
+    "modal.css.body": "CSS3 służy do stylizacji i układu stron internetowych, w tym animacji i responsywnego designu.",
+    "modal.css.btn": "Szczegóły",
+
+    "modal.js.title": "JavaScript",
+    "modal.js.body": "JavaScript to język programowania umożliwiający tworzenie dynamicznych i interaktywnych treści webowych.",
+    "modal.js.btn": "Szczegóły",
+
+    "modal.react.title": "React",
+    "modal.react.body": "React to biblioteka JavaScript do tworzenia interfejsów użytkownika z wielokrotnego użytku komponentów.",
+    "modal.react.btn": "Szczegóły",
+
+    "modal.mongo.title": "MongoDB",
+    "modal.mongo.body": "MongoDB to baza danych NoSQL przechowująca dane w elastycznych dokumentach w formacie JSON.",
+    "modal.mongo.btn": "Szczegóły",
+
+    "modal.bootstrap.title": "Bootstrap",
+    "modal.bootstrap.body": "Bootstrap — popularny framework front-endowy do szybkiego tworzenia responsywnych stron i komponentów.",
+    "modal.bootstrap.btn": "Szczegóły",
+
+    "modal.figma.title": "Figma",
+    "modal.figma.body": "Figma — narzędzie chmurowe do projektowania interfejsów i prototypowania, pozwalające na pracę zespołową w czasie rzeczywistym.",
+    "modal.figma.btn": "Szczegóły",
+
+    "modal.git.title": "Git",
+    "modal.git.body": "Git — rozproszony system kontroli wersji, umożliwiający śledzenie zmian w kodzie i koordynację pracy zespołu.",
+    "modal.git.btn": "Szczegóły",
+
+    "modal.github.title": "GitHub",
+    "modal.github.body": "GitHub — platforma online do hostingu repozytoriów Git, ułatwiająca współpracę, dzielenie się kodem i zarządzanie projektami.",
+    "modal.github.btn": "Szczegóły"
   },
   "en": {
     "nav.home": "Home",
@@ -45,6 +121,44 @@
     "contact.subtitle": "Drop me a message or reach out directly:",
     "contact.email": "Email",
     "contact.telegram": "Telegram",
-    "contact.send": "Send"
+    "contact.send": "Send",
+    "skills.title": "My Skills",
+    "skills.subtitle": "Technologies I use to craft modern web applications",
+
+    "modal.html.title": "HTML5",
+    "modal.html.body": "HTML5 is the standard markup language for creating web pages and web applications.",
+    "modal.html.btn": "See Details",
+
+    "modal.css.title": "CSS3",
+    "modal.css.body": "CSS3 is used to style and layout web pages, including animations and responsive designs.",
+    "modal.css.btn": "See Details",
+
+    "modal.js.title": "JavaScript",
+    "modal.js.body": "JavaScript is a programming language that allows you to create dynamic and interactive web content.",
+    "modal.js.btn": "See Details",
+
+    "modal.react.title": "React",
+    "modal.react.body": "React is a JavaScript library for building user interfaces with reusable components.",
+    "modal.react.btn": "See Details",
+
+    "modal.mongo.title": "MongoDB",
+    "modal.mongo.body": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.",
+    "modal.mongo.btn": "See Details",
+
+    "modal.bootstrap.title": "Bootstrap",
+    "modal.bootstrap.body": "Bootstrap is a popular front-end framework for quickly building responsive web pages and components.",
+    "modal.bootstrap.btn": "See Details",
+
+    "modal.figma.title": "Figma",
+    "modal.figma.body": "Figma is a cloud-based design tool for interface design and prototyping, enabling real-time team collaboration.",
+    "modal.figma.btn": "See Details",
+
+    "modal.git.title": "Git",
+    "modal.git.body": "Git is a distributed version control system that lets you track changes in code and coordinate team work.",
+    "modal.git.btn": "See Details",
+
+    "modal.github.title": "GitHub",
+    "modal.github.body": "GitHub is an online platform for hosting Git repositories, ideal for collaboration, code sharing, and project management.",
+    "modal.github.btn": "See Details"
   }
 }

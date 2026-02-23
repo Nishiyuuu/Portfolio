@@ -1,8 +1,8 @@
+let translations = {};
+
 document.addEventListener("DOMContentLoaded", () => {
   const langSels = [...document.querySelectorAll(".lang-selector")];
   const themeSels = [...document.querySelectorAll(".theme-selector")];
-
-  let translations = {};
 
   /* ---------------- i18n ---------------- */
 
@@ -29,6 +29,31 @@ document.addEventListener("DOMContentLoaded", () => {
       const saved = localStorage.getItem("siteLang");
       const lang = translations[saved] ? saved : "en";
       setLanguage(lang);
+
+      // Set up modal handlers after translations are loaded
+      const modal = document.getElementById("skillModal");
+      if (modal) {
+        const modalTitle = modal.querySelector(".modal-title");
+        const modalBody = modal.querySelector(".modal-body p");
+        const modalBtn = modal.querySelector(".modal-body a");
+
+        document.querySelectorAll(".skill-circle").forEach((circle) => {
+          circle.addEventListener("click", () => {
+            const currentLang = localStorage.getItem("siteLang") || lang;
+            const t = translations[currentLang] || {};
+            const titleKey = circle.dataset.i18nTitle;
+            const bodyKey = circle.dataset.i18nBody;
+            const btnKey = circle.dataset.i18nBtn;
+
+            if (modalTitle) modalTitle.textContent = t[titleKey] || "";
+            if (modalBody) modalBody.textContent = t[bodyKey] || "";
+            if (modalBtn) {
+              modalBtn.textContent = t[btnKey] || "";
+              modalBtn.href = circle.dataset.url || "#";
+            }
+          });
+        });
+      }
     })
     .catch((e) => console.warn("Translation load error:", e));
 

@@ -2,7 +2,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background-color: var(--bs-body-bg); /* адаптивно до light/dark */
+  background-color: var(--bs-body-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,7 +35,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 0 15px; /* адаптивні бокові відступи */
+  padding: 0 15px;
   text-align: center;
 }
 
@@ -52,4 +52,10 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+}
+
+a {
+  all: unset;
+  display: inline;
+  cursor: pointer;
 }

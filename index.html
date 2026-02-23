@@ -28,8 +28,11 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-semibold" href="#" data-i18n="nav.about"
-                >Про мене</a
+              <a
+                class="nav-link fw-semibold"
+                href="#skills"
+                data-i18n="nav.skills"
+                >Навички</a
               >
             </li>
             <li class="nav-item">
@@ -38,11 +41,8 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link fw-semibold"
-                href="#skills"
-                data-i18n="nav.skills"
-                >Скіли</a
+              <a class="nav-link fw-semibold" href="#" data-i18n="nav.about"
+                >Про мене</a
               >
             </li>
           </ul>
@@ -125,35 +125,127 @@
 
         <div class="d-flex justify-content-center flex-wrap gap-4">
           <!-- HTML5 -->
-          <div class="skill-circle">
-            <a>
-              <img src="./public/logos/html5.svg" alt="HTML5" />
-              <span>HTML5</span>
-            </a>
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.html.title"
+            data-i18n-body="modal.html.body"
+            data-i18n-btn="modal.html.btn"
+            data-url="https://developer.mozilla.org/en-US/docs/Web/HTML"
+          >
+            <img src="./public/logos/html5.svg" alt="HTML5" />
+            <span>HTML5</span>
           </div>
 
           <!-- CSS3 -->
-          <div class="skill-circle">
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.css.title"
+            data-i18n-body="modal.css.body"
+            data-i18n-btn="modal.css.btn"
+            data-url="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          >
             <img src="./public/logos/css3.svg" alt="CSS3" />
             <span>CSS3</span>
           </div>
 
+          <!-- Boostrap -->
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.bootstrap.title"
+            data-i18n-body="modal.bootstrap.body"
+            data-i18n-btn="modal.bootstrap.btn"
+            data-url="https://getbootstrap.com/"
+          >
+            <img src="./public/logos/bootstrap.svg" alt="bootstrap" />
+            <span>Boostrap</span>
+          </div>
+
           <!-- JavaScript -->
-          <div class="skill-circle">
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.js.title"
+            data-i18n-body="modal.js.body"
+            data-i18n-btn="modal.js.btn"
+            data-url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          >
             <img src="./public/logos/javascript.svg" alt="JavaScript" />
             <span>JavaScript</span>
           </div>
 
           <!-- React -->
-          <div class="skill-circle">
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.react.title"
+            data-i18n-body="modal.react.body"
+            data-i18n-btn="modal.react.btn"
+            data-url="https://reactjs.org/"
+          >
             <img src="./public/logos/react.svg" alt="React" />
             <span>React</span>
           </div>
 
           <!-- MongoDB -->
-          <div class="skill-circle">
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.mongo.title"
+            data-i18n-body="modal.mongo.body"
+            data-i18n-btn="modal.mongo.btn"
+            data-url="https://www.mongodb.com/"
+          >
             <img src="./public/logos/mongodb.svg" alt="MongoDB" />
             <span>MongoDB</span>
+          </div>
+
+          <!-- Figma -->
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.figma.title"
+            data-i18n-body="modal.figma.body"
+            data-i18n-btn="modal.figma.btn"
+            data-url="https://www.figma.com/"
+          >
+            <img src="./public/logos/figma.svg" alt="MongoDB" />
+            <span>Figma</span>
+          </div>
+          <!-- Git -->
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.git.title"
+            data-i18n-body="modal.git.body"
+            data-i18n-btn="modal.git.btn"
+            data-url="https://git-scm.com/"
+          >
+            <img src="./public/logos/git.svg" alt="Git" />
+            <span>Git</span>
+          </div>
+          <!-- GitHub -->
+          <div
+            class="skill-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#skillModal"
+            data-i18n-title="modal.github.title"
+            data-i18n-body="modal.github.body"
+            data-i18n-btn="modal.github.btn"
+            data-url="https://github.com/"
+          >
+            <img src="./public/logos/github.svg" alt="GitHub" />
+            <span>GitHub</span>
           </div>
         </div>
       </div>
@@ -193,7 +285,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-semibold" href="#" data-i18n="nav.skills"
-                  >Скіли</a
+                  >Навички</a
                 >
               </li>
             </ul>
@@ -286,7 +378,27 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="skillModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+          <div class="modal-header">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body text-center">
+            <p></p>
+            <a href="#" target="_blank" class="btn btn-primary"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
