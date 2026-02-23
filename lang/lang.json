@@ -51,7 +51,22 @@
 
     "modal.github.title": "GitHub",
     "modal.github.body": "GitHub — онлайн-платформа для хостингу репозиторіїв Git, зручна для співпраці, обміну кодом та управління проєктами.",
-    "modal.github.btn": "Деталі"
+    "modal.github.btn": "Деталі",
+
+    "about.title": "Про мене",
+    "about.role": "Фронтенд-розробник",
+    "about.description": "Створюю сучасні веб-додатки з чистим кодом, адаптивним дизайном та фокусом на зручність користувача.",
+    "about.kul.title": "KUL – Бакалавр комп’ютерних наук",
+    "about.kul.date": "2023 – Тепер",
+    "about.kul.desc": "Отримав міцну базу в програмуванні, алгоритмах та принципах розробки ПЗ.",
+    "about.goit.title": "GoIT – Fullstack JS Developer",
+    "about.goit.date": "2024 – Тепер",
+    "about.goit.desc": "Вивчаю JavaScript, React, Node.js та створюю реальні веб-додатки.",
+
+    "projects.title": "Мої Проекти",
+    "projects.subtitle": "Проекти, які я розробив і які демонструють мої навички",
+    "projects.search": "Пошук проектів...",
+    "projects.noResults": "Проектів не знайдено"
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -105,7 +120,22 @@
 
     "modal.github.title": "GitHub",
     "modal.github.body": "GitHub — platforma online do hostingu repozytoriów Git, ułatwiająca współpracę, dzielenie się kodem i zarządzanie projektami.",
-    "modal.github.btn": "Szczegóły"
+    "modal.github.btn": "Szczegóły",
+
+    "about.title": "O mnie",
+    "about.role": "Frontend Developer",
+    "about.description": "Tworzę nowoczesne aplikacje webowe z czystym kodem, responsywnym designem i fokusie na użyteczność.",
+    "about.kul.title": "KUL – Licencjat z Informatyki",
+    "about.kul.date": "2023 – Obecnie",
+    "about.kul.desc": "Zdobyłem solidne podstawy programowania, algorytmów i zasad tworzenia oprogramowania.",
+    "about.goit.title": "GoIT – Fullstack JS Developer",
+    "about.goit.date": "2024 – Obecnie",
+    "about.goit.desc": "Uczę się JavaScript, React, Node.js i tworzę realne aplikacje webowe.",
+
+    "projects.title": "Moje Projekty",
+    "projects.subtitle": "Projekty, które opracowałem i które demonstrują moje umiejętności",
+    "projects.search": "Szukaj projektów...",
+    "projects.noResults": "Nie znaleziono projektów"
   },
   "en": {
     "nav.home": "Home",
@@ -159,6 +189,16 @@
 
     "modal.github.title": "GitHub",
     "modal.github.body": "GitHub is an online platform for hosting Git repositories, ideal for collaboration, code sharing, and project management.",
-    "modal.github.btn": "See Details"
+    "modal.github.btn": "See Details",
+
+    "about.title": "About Me",
+    "about.role": "Frontend Developer",
+    "about.description": "I craft modern web applications with clean code, responsive design, and a focus on usability.",
+    "about.kul.title": "KUL – Bachelor in Computer Science",
+    "about.kul.date": "2023 – Present",
+    "about.kul.desc": "Gained solid foundation in programming, algorithms, and software development principles.",
+    "about.goit.title": "GoIT – Fullstack JS Developer",
+    "about.goit.date": "2024 – Present",
+    "about.goit.desc": "Learning JavaScript, React, Node.js and building real-world web applications."
   }
 }
