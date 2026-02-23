@@ -54,19 +54,22 @@
     "modal.github.btn": "Деталі",
 
     "about.title": "Про мене",
-    "about.role": "Фронтенд-розробник",
-    "about.description": "Створюю сучасні веб-додатки з чистим кодом, адаптивним дизайном та фокусом на зручність користувача.",
-    "about.kul.title": "KUL – Бакалавр комп’ютерних наук",
-    "about.kul.date": "2023 – Тепер",
-    "about.kul.desc": "Отримав міцну базу в програмуванні, алгоритмах та принципах розробки ПЗ.",
-    "about.goit.title": "GoIT – Fullstack JS Developer",
-    "about.goit.date": "2024 – Тепер",
-    "about.goit.desc": "Вивчаю JavaScript, React, Node.js та створюю реальні веб-додатки.",
+    "about.intro": "Створюю сучасні веб-інтерфейси та системи. Навчаюсь на спеціальності Інформатика та активно розвиваюсь як Fullstack JavaScript розробник.",
 
-    "projects.title": "Мої Проекти",
-    "projects.subtitle": "Проекти, які я розробив і які демонструють мої навички",
-    "projects.search": "Пошук проектів...",
-    "projects.noResults": "Проектів не знайдено"
+    "about.mindset.title": "Підхід",
+    "about.mindset.text": "Зосереджуюсь на чистому, структурованому та масштабованому коді. Мені цікаво перетворювати ідеї у працюючі продукти та постійно поглиблювати технічні знання.",
+
+    "about.learning.title": "Поточний фокус",
+    "about.learning.text": "Поглиблюю знання в архітектурі фронтенду, екосистемі React, бекенд-логіці на Node.js та проєктуванні баз даних MongoDB.",
+
+    "about.kul.date": "2023 - Зараз",
+    "about.kul.text": "Вивчаю фундаментальні дисципліни комп’ютерних наук: алгоритми, структури даних, бази даних та системні основи.",
+
+    "about.goit.date": "2024 - Зараз",
+    "about.goit.text": "Практична fullstack-програма з фокусом на JavaScript, React, бекенд-логіку та створення реальних проєктів.",
+
+    "about.connect.title": "Профілі",
+    "about.connect.text": "Переглянути код, активність та професійний профіль можна тут."
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -123,19 +126,22 @@
     "modal.github.btn": "Szczegóły",
 
     "about.title": "O mnie",
-    "about.role": "Frontend Developer",
-    "about.description": "Tworzę nowoczesne aplikacje webowe z czystym kodem, responsywnym designem i fokusie na użyteczność.",
-    "about.kul.title": "KUL – Licencjat z Informatyki",
-    "about.kul.date": "2023 – Obecnie",
-    "about.kul.desc": "Zdobyłem solidne podstawy programowania, algorytmów i zasad tworzenia oprogramowania.",
-    "about.goit.title": "GoIT – Fullstack JS Developer",
-    "about.goit.date": "2024 – Obecnie",
-    "about.goit.desc": "Uczę się JavaScript, React, Node.js i tworzę realne aplikacje webowe.",
+    "about.intro": "Tworzę nowoczesne interfejsy i systemy webowe. Studiuję informatykę i rozwijam się jako Fullstack JavaScript developer.",
 
-    "projects.title": "Moje Projekty",
-    "projects.subtitle": "Projekty, które opracowałem i które demonstrują moje umiejętności",
-    "projects.search": "Szukaj projektów...",
-    "projects.noResults": "Nie znaleziono projektów"
+    "about.mindset.title": "Podejście",
+    "about.mindset.text": "Skupiam się na czystym, uporządkowanym i skalowalnym kodzie. Lubię zamieniać pomysły w działające produkty oraz stale pogłębiać wiedzę techniczną.",
+
+    "about.learning.title": "Aktualny kierunek",
+    "about.learning.text": "Rozwijam się w architekturze frontendu, ekosystemie React, logice backendowej w Node.js oraz projektowaniu baz danych MongoDB.",
+
+    "about.kul.date": "2023 - Obecnie",
+    "about.kul.text": "Studiuję kluczowe zagadnienia informatyki: algorytmy, struktury danych, bazy danych oraz podstawy systemów.",
+
+    "about.goit.date": "2024 - Obecnie",
+    "about.goit.text": "Praktyczny kurs fullstack z naciskiem na JavaScript, React, backend oraz tworzenie realnych projektów.",
+
+    "about.connect.title": "Profile",
+    "about.connect.text": "Tutaj można zobaczyć mój kod, aktywność oraz profil zawodowy."
   },
   "en": {
     "nav.home": "Home",
@@ -192,13 +198,21 @@
     "modal.github.btn": "See Details",
 
     "about.title": "About Me",
-    "about.role": "Frontend Developer",
-    "about.description": "I craft modern web applications with clean code, responsive design, and a focus on usability.",
-    "about.kul.title": "KUL – Bachelor in Computer Science",
-    "about.kul.date": "2023 – Present",
-    "about.kul.desc": "Gained solid foundation in programming, algorithms, and software development principles.",
-    "about.goit.title": "GoIT – Fullstack JS Developer",
-    "about.goit.date": "2024 – Present",
-    "about.goit.desc": "Learning JavaScript, React, Node.js and building real-world web applications."
+    "about.intro": "I build modern web interfaces and systems. Currently studying Computer Science and actively growing as a Fullstack JavaScript developer.",
+
+    "about.mindset.title": "Approach",
+    "about.mindset.text": "I focus on writing clean, structured and scalable code. I enjoy turning ideas into working products and continuously deepening my technical expertise.",
+
+    "about.learning.title": "Current Focus",
+    "about.learning.text": "Improving my knowledge in frontend architecture, the React ecosystem, backend logic with Node.js, and database design with MongoDB.",
+
+    "about.kul.date": "2023 - Present",
+    "about.kul.text": "Studying core computer science disciplines including algorithms, data structures, databases, and system fundamentals.",
+
+    "about.goit.date": "2024 - Present",
+    "about.goit.text": "Hands-on fullstack program focused on JavaScript, React, backend development, and building real-world projects.",
+
+    "about.connect.title": "Profiles",
+    "about.connect.text": "You can explore my code, activity and professional background here."
   }
 }
