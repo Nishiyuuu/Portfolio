@@ -66,7 +66,13 @@
     "about.kulDesc": "Навчаюсь за спеціальністю Інформатика. Вивчаю алгоритми, структури даних, бази даних та фундаментальні принципи програмування.",
     "about.goitDesc": "Проходжу програму Full-Stack Developer, де поглиблено вивчаю JavaScript, React, Node.js та роботу з реальними проєктами.",
     "about.certBtn": "Мої дипломи та сертифікати",
-    "about.downloadCV": "Завантажити резюме"
+    "about.downloadCV": "Завантажити резюме",
+
+    "cert.back": "Повернутися до портфоліо",
+    "cert.subtitle": "Офіційні документи, що підтверджують мою кваліфікацію",
+    "cert.inProgress": "В процесі",
+    "cert.finishing": "На стадії завершення",
+    "cert.view": "Переглянути PDF"
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -135,7 +141,13 @@
     "about.kulDesc": "Studiuję Informatykę. Uczę się algorytmów, struktur danych, baz danych oraz podstaw inżynierii oprogramowania.",
     "about.goitDesc": "Realizuję program Full-Stack Developer, koncentrując się na JavaScript, React, Node.js i pracy projektowej.",
     "about.certBtn": "Moje dyplomy i certyfikaty",
-    "about.downloadCV": "Pobierz CV"
+    "about.downloadCV": "Pobierz CV",
+
+    "cert.back": "Wróć do Portfolio",
+    "cert.subtitle": "Oficjalne dokumenty potwierdzające moje kwalifikacje",
+    "cert.inProgress": "W trakcie",
+    "cert.finishing": "Na ukończeniu",
+    "cert.view": "Zobacz PDF"
   },
   "en": {
     "nav.home": "Home",
@@ -204,6 +216,12 @@
     "about.kulDesc": "Studying Computer Science. Learning algorithms, data structures, databases and software engineering fundamentals.",
     "about.goitDesc": "Completing a Full-Stack Developer program focused on JavaScript, React, Node.js and real project experience.",
     "about.certBtn": "View My Diplomas & Certificates",
-    "about.downloadCV": "Download CV"
+    "about.downloadCV": "Download CV",
+
+    "cert.back": "Back to Portfolio",
+    "cert.subtitle": "Official documents confirming my skills and education",
+    "cert.inProgress": "In Progress",
+    "cert.finishing": "Finishing",
+    "cert.view": "View PDF"
   }
 }
