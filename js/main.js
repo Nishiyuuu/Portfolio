@@ -95,3 +95,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log("i18n + theme initialized");
 });
+
+document.querySelectorAll("#mobileMenu .nav-link").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    const menuModal = bootstrap.Modal.getInstance(
+      document.getElementById("mobileMenu"),
+    );
+    if (menuModal) menuModal.hide();
+
+    setTimeout(() => {
+      window.location.hash = href;
+    }, 300);
+  });
+});

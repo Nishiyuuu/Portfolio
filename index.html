@@ -73,30 +73,31 @@
       </div>
     </header>
 
-    <section id="home" class="py-5 shadow-sm border-bottom">
+    <section id="home" class="py-3 py-md-5 shadow-sm border-bottom">
       <div class="container text-center">
         <img
           src="./public/avatar.png"
           alt="Vladyslav"
-          class="rounded-circle shadow mb-4"
+          class="rounded-circle shadow mb-3 mb-md-4 mx-auto d-block"
           width="150"
           height="150"
+          style="max-width: 120px; height: auto;"
         />
-        <h1 class="fw-bold mb-2" data-i18n="hero.name">Vladyslav</h1>
-        <h2 class="fw-semibold mb-3 text-secondary" data-i18n="hero.role">
+        <h1 class="fw-bold mb-2 display-5" data-i18n="hero.name">Vladyslav</h1>
+        <h2 class="fw-semibold mb-3 text-secondary h3" data-i18n="hero.role">
           Frontend Developer
         </h2>
         <p class="mb-4 fst-italic text-muted" data-i18n="hero.tagline">
           Crafting sleek, fast and modern web apps.
         </p>
-        <div class="hero-buttons mb-4">
+        <div class="hero-buttons mb-4 flex-column flex-sm-row gap-2 gap-md-3">
           <a
             href="#projects"
-            class="btn btn-primary btn-lg"
+            class="btn btn-primary btn-sm btn-md-lg"
             data-i18n="hero.btnProjects"
             >View Projects</a>
           <button
-            class="btn btn-outline-primary btn-lg"
+            class="btn btn-outline-primary btn-sm btn-md-lg"
             data-bs-toggle="modal"
             data-bs-target="#contactModal"
             data-i18n="hero.btnContact"
@@ -106,14 +107,14 @@
         </div>
       </div>
     </section>
-    <section id="skills" class="py-5 shadow-sm border-bottom bg-body-tertiary">
+    <section id="skills" class="py-3 py-md-5 shadow-sm border-bottom bg-body-tertiary">
       <div class="container text-center">
-        <h2 class="fw-bold mb-4" data-i18n="skills.title">My Skills</h2>
-        <p class="text-muted mb-5" data-i18n="skills.subtitle">
+        <h2 class="fw-bold mb-3 mb-md-4 display-6" data-i18n="skills.title">My Skills</h2>
+        <p class="text-muted mb-4 mb-md-5" data-i18n="skills.subtitle">
           Technologies I use to craft modern web applications
         </p>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
+        <div class="d-flex justify-content-center flex-wrap gap-2 gap-sm-3 gap-md-4">
           <div
             class="skill-circle"
             data-bs-toggle="modal"
@@ -225,55 +226,55 @@
         </div>
       </div>
     </section>
-    <section id="about" class="py-5 border-bottom">
+    <section id="about" class="py-3 py-md-5 border-bottom">
       <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="fw-bold mb-3" data-i18n="about.title">About Me</h2>
-          <p class="text-muted fs-5" data-i18n="about.subtitle">
+        <div class="text-center mb-4 mb-md-5">
+          <h2 class="fw-bold mb-2 mb-md-3 display-6" data-i18n="about.title">About Me</h2>
+          <p class="text-muted" data-i18n="about.subtitle">
             Developer focused on growth, quality and real-world problem solving
           </p>
         </div>
-        <div class="row g-5">
-          <div class="col-lg-7">
+        <div class="row g-3 g-md-5">
+          <div class="col-12 col-lg-7">
             <p class="mb-3" data-i18n="about.text1"></p>
             <p class="mb-3" data-i18n="about.text2"></p>
             <p class="mb-4" data-i18n="about.text3"></p>
-            <div class="experience-box p-4 rounded-4 mb-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
+            <div class="experience-box p-3 p-md-4 rounded-4 mb-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
               <h3 class="fw-bold mb-3" data-i18n="about.expTitle"></h3>
               <p class="mb-0" data-i18n="about.expText"></p>
             </div>
-            <div class="d-flex flex-wrap gap-3 align-items-center">
+            <div class="d-flex flex-column flex-sm-row flex-wrap gap-2 gap-md-3 align-items-sm-center">
               <a href="https://github.com/Nishiyuuu"
                 target="_blank"
-                class="btn btn-outline-primary btn-lg"
+                class="btn btn-outline-primary btn-sm btn-md-lg"
                 title="Visit GitHub">
                 <i class="bi bi-github"></i>
                 GitHub
               </a>
               <a href="https://linkedin.com/in/vladyslav-bychkovskyi-b8a65a303"
                 target="_blank"
-                class="btn btn-outline-primary btn-lg"
+                class="btn btn-outline-primary btn-sm btn-md-lg"
                 title="Visit LinkedIn">
                 <i class="bi bi-linkedin"></i>
                 LinkedIn
               </a>
               <a href="#projects"
-                class="btn btn-outline-primary btn-lg"
+                class="btn btn-outline-primary btn-sm btn-md-lg"
                 data-i18n="about.projectsBtn">
               </a>
               <button
-                class="btn btn-primary btn-lg"
+                class="btn btn-primary btn-sm btn-md-lg"
                 data-bs-toggle="modal"
                 data-bs-target="#contactModal"
                 data-i18n="hero.btnContact">
               </button>
             </div>
           </div>
-          <div class="col-lg-5 ">
+          <div class="col-12 col-lg-5">
             <div class="timeline">
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content p-4 rounded-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
+                <div class="timeline-content p-3 p-md-4 rounded-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
                   <h6 class="fw-bold mb-1">KUL – Informatyka</h6>
                   <small class="text-muted" data-i18n="about.kul"></small>
                   <p class="mb-0 mt-2" data-i18n="about.kulDesc"></p>
@@ -281,7 +282,7 @@
               </div>
               <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-content p-4 rounded-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
+                <div class="timeline-content p-3 p-md-4 rounded-4 shadow-sm bg-body-tertiary" style="border-left: 6px solid var(--bs-primary);">
                   <h6 class="fw-bold mb-1">GoIT – Full-Stack Developer</h6>
                   <small class="text-muted" data-i18n="about.goit"></small>
                   <p class="mb-0 mt-2" data-i18n="about.goitDesc"></p>
@@ -289,7 +290,7 @@
               </div>
               <div class="mt-2 text-center">
               <a href="./certificates.html"
-                class="btn btn-outline-primary btn-lg"
+                class="btn btn-outline-primary btn-sm btn-md-lg"
                 data-i18n="about.certBtn">
                 <i class="bi bi-award-fill"></i>
               </a>
@@ -346,7 +347,7 @@
       </div>
     </div>
     <div class="modal fade" id="contactModal" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" data-i18n="contact.title">Contact Me</h5>
@@ -360,16 +361,16 @@
             <p class="text-center mb-3" data-i18n="contact.subtitle">
               Drop me a message or reach out directly:
             </p>
-            <div class="d-flex justify-content-center gap-2 mb-3 flex-wrap">
+            <div class="d-flex justify-content-center gap-2 mb-3 flex-wrap flex-sm-row">
               <a
                 href="mailto:bickovskyijvlad53@gmail.com"
-                class="btn btn-primary"
+                class="btn btn-primary btn-sm btn-md-lg"
                 data-i18n="contact.email"
                 >Email</a>
               <a
                 href="https://t.me/Nishiyyu"
                 target="_blank"
-                class="btn btn-outline-primary"
+                class="btn btn-outline-primary btn-sm btn-md-lg"
                 data-i18n="contact.telegram"
                 >Telegram</a>
             </div>
