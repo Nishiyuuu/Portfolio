@@ -65,7 +65,8 @@
     "about.goit": "2024 – теперішній час",
     "about.kulDesc": "Навчаюсь за спеціальністю Інформатика. Вивчаю алгоритми, структури даних, бази даних та фундаментальні принципи програмування.",
     "about.goitDesc": "Проходжу програму Full-Stack Developer, де поглиблено вивчаю JavaScript, React, Node.js та роботу з реальними проєктами.",
-    "about.certBtn": "Мої дипломи та сертифікати"
+    "about.certBtn": "Мої дипломи та сертифікати",
+    "about.downloadCV": "Завантажити резюме"
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -133,7 +134,8 @@
     "about.goit": "2024 – obecnie",
     "about.kulDesc": "Studiuję Informatykę. Uczę się algorytmów, struktur danych, baz danych oraz podstaw inżynierii oprogramowania.",
     "about.goitDesc": "Realizuję program Full-Stack Developer, koncentrując się na JavaScript, React, Node.js i pracy projektowej.",
-    "about.certBtn": "Moje dyplomy i certyfikaty"
+    "about.certBtn": "Moje dyplomy i certyfikaty",
+    "about.downloadCV": "Pobierz CV"
   },
   "en": {
     "nav.home": "Home",
@@ -201,6 +203,7 @@
     "about.goit": "2024 – present",
     "about.kulDesc": "Studying Computer Science. Learning algorithms, data structures, databases and software engineering fundamentals.",
     "about.goitDesc": "Completing a Full-Stack Developer program focused on JavaScript, React, Node.js and real project experience.",
-    "about.certBtn": "View My Diplomas & Certificates"
+    "about.certBtn": "View My Diplomas & Certificates",
+    "about.downloadCV": "Download CV"
   }
 }
