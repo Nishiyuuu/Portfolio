@@ -72,7 +72,20 @@
     "cert.subtitle": "Офіційні документи, що підтверджують мою кваліфікацію",
     "cert.inProgress": "В процесі",
     "cert.finishing": "На стадії завершення",
-    "cert.view": "Переглянути PDF"
+    "cert.view": "Переглянути PDF",
+
+    "projects.title": "Мої Проекти",
+    "projects.searchPlaceholder": "Пошук за назвою або технологією...",
+    "projects.all": "Всі",
+    "projects.statusOpen": "Відкритий до пропозицій",
+    "projects.live": "Демо",
+    "projects.code": "Код",
+    "projects.noResults": "Нічого не знайдено",
+    "projects.clear": "Очистити",
+    "projects.testTitle": "Тестовий Проект",
+    "projects.testDesc": "Це приклад того, як виглядає картка проекту. Використано сучасні підходи до розробки.",
+    "projects.portfolioTitle": "Портфоліо",
+    "projects.portfolioDesc": "Мій персональний сайт, який ви зараз переглядаєте."
   },
   "pl": {
     "nav.home": "Strona główna",
@@ -147,7 +160,20 @@
     "cert.subtitle": "Oficjalne dokumenty potwierdzające moje kwalifikacje",
     "cert.inProgress": "W trakcie",
     "cert.finishing": "Na ukończeniu",
-    "cert.view": "Zobacz PDF"
+    "cert.view": "Zobacz PDF",
+
+    "projects.title": "Moje Projekty",
+    "projects.searchPlaceholder": "Szukaj według nazwy lub technologii...",
+    "projects.all": "Wszystkie",
+    "projects.statusOpen": "Otwarty na współpracę",
+    "projects.live": "Demo",
+    "projects.code": "Kod",
+    "projects.noResults": "Nic nie znaleziono",
+    "projects.clear": "Wyczyść",
+    "projects.testTitle": "Projekt Testowy",
+    "projects.testDesc": "To jest przykład tego, jak wygląda karta projektu. Zastosowano nowoczesne podejścia.",
+    "projects.portfolioTitle": "Portfolio",
+    "projects.portfolioDesc": "Moja osobista strona, którą właśnie przeglądasz."
   },
   "en": {
     "nav.home": "Home",
@@ -222,6 +248,19 @@
     "cert.subtitle": "Official documents confirming my skills and education",
     "cert.inProgress": "In Progress",
     "cert.finishing": "Finishing",
-    "cert.view": "View PDF"
+    "cert.view": "View PDF",
+
+    "projects.title": "My Projects",
+    "projects.searchPlaceholder": "Search by name or technology...",
+    "projects.all": "All",
+    "projects.statusOpen": "Open to work / Collaboration",
+    "projects.live": "Live",
+    "projects.code": "Code",
+    "projects.noResults": "No results found",
+    "projects.clear": "Clear",
+    "projects.testTitle": "Test Project",
+    "projects.testDesc": "This is an example of a project card. Built using modern development practices.",
+    "projects.portfolioTitle": "Portfolio Website",
+    "projects.portfolioDesc": "My personal website that you are currently browsing."
   }
 }

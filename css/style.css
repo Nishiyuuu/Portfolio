@@ -8,8 +8,6 @@ img {
   height: auto;
   display: block;
 }
-
-/* Ефект скла для хедеру */
 header {
   position: sticky;
   top: 0;
@@ -18,8 +16,6 @@ header {
   -webkit-backdrop-filter: blur(12px);
   background-color: rgba(var(--bs-body-bg-rgb), 0.8) !important;
 }
-
-/* Покращення карток сертифікатів */
 .experience-box {
   border: 1px solid rgba(13, 110, 253, 0.1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -271,8 +267,6 @@ a[href]:not(.nav-link):not(.btn):hover {
 [data-bs-theme="dark"] .btn {
   transition: all 0.25s ease;
 }
-
-/* Smooth transitions for touch devices */
 @media (hover: none) and (pointer: coarse) {
   .btn:hover,
   .skill-circle:hover,
@@ -285,8 +279,6 @@ a[href]:not(.nav-link):not(.btn):hover {
     transform: scale(0.98);
   }
 }
-
-/* Responsive button size utilities */
 .btn-sm {
   padding: 0.4rem 1rem !important;
   font-size: 0.875rem;
@@ -305,8 +297,6 @@ a[href]:not(.nav-link):not(.btn):hover {
     font-size: 0.875rem;
   }
 }
-
-/* Small skill circles on mobile */
 @media (max-width: 575.98px) {
   .skill-circle {
     width: 90px;
@@ -322,8 +312,6 @@ a[href]:not(.nav-link):not(.btn):hover {
     font-size: 0.75rem;
   }
 }
-
-/* Touch-friendly adjustments */
 @media (hover: none) {
   .skill-circle:hover {
     transform: none;
