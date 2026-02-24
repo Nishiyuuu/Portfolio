@@ -8,6 +8,22 @@ img {
   height: auto;
   display: block;
 }
+
+/* Ефект скла для хедеру */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(var(--bs-body-bg-rgb), 0.8) !important;
+}
+
+/* Покращення карток сертифікатів */
+.experience-box {
+  border: 1px solid rgba(13, 110, 253, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -76,7 +92,8 @@ img {
   transition: all 0.25s ease;
   padding: 10px;
   cursor: pointer;
-  border: 2px solid transparent;
+  border: none;
+  background: var(--bs-body-bg);
 }
 
 .skill-circle img {
