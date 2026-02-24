@@ -67,6 +67,32 @@ document.addEventListener("DOMContentLoaded", () => {
     s.addEventListener("change", (e) => setLanguage(e.target.value)),
   );
 
+  /* ---------------- Mobile Menu Closure on Link Click ---------------- */
+
+  const mobileMenuModal = document.getElementById("mobileMenu");
+  if (mobileMenuModal) {
+    mobileMenuModal.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        const href = link.getAttribute("href");
+        e.preventDefault();
+
+        const modal = bootstrap.Modal.getInstance(mobileMenuModal);
+        if (modal) {
+          mobileMenuModal.addEventListener(
+            "hidden.bs.modal",
+            () => {
+              if (href && href !== "#") {
+                window.location.hash = href;
+              }
+            },
+            { once: true },
+          );
+          modal.hide();
+        }
+      });
+    });
+  }
+
   /* ---------------- Theme ---------------- */
 
   const applyTheme = (theme) => {
@@ -94,20 +120,4 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   console.log("i18n + theme initialized");
-});
-
-document.querySelectorAll("#mobileMenu .nav-link").forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
-    const href = link.getAttribute("href");
-
-    const menuModal = bootstrap.Modal.getInstance(
-      document.getElementById("mobileMenu"),
-    );
-    if (menuModal) menuModal.hide();
-
-    setTimeout(() => {
-      window.location.hash = href;
-    }, 300);
-  });
 });
