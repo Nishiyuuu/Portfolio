@@ -317,3 +317,11 @@ a[href]:not(.nav-link):not(.btn):hover {
     transform: none;
   }
 }
+
+.project-actions .btn {
+  padding: 10px 25px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
