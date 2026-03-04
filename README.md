@@ -20,7 +20,7 @@ A high-performance, fully responsive, and multilingual personal portfolio websit
 
 ## Key Features
 
-- **Custom Internationalization (i18n):** Implemented a proprietary translation engine using Vanilla JavaScript. The site supports three languages (English, Ukrainian, Polish) dynamically fetched from a central "lang.json" file without requiring page reloads.
+- **Custom Internationalization (i18n):** Implemented a proprietary translation engine using Vanilla JavaScript. The site supports three languages (English, Ukrainian, Polish) dynamically fetched from a central 'lang.json' file without requiring page reloads.
 - **Dynamic Content Rendering:** The project details page (`project-details.html`) acts as a single, reusable template. It reads URL query parameters (e.g., `?id=portfolio`) and populates the DOM with specific project data from the JSON file, strictly adhering to the DRY (Don't Repeat Yourself) principle.
 - **Advanced Filtering Engine:** The projects gallery features a real-time, client-side search and tag-based filtering mechanism.
 - **Persistent Theming:** A built-in Light/Dark mode toggle utilizes CSS variables and browser `localStorage` to maintain user preferences seamlessly across sessions and page navigations.
