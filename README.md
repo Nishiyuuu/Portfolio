@@ -30,7 +30,7 @@ A high-performance, fully responsive, and multilingual personal portfolio websit
 
 The core logic of the application revolves around asynchronous data fetching and dynamic DOM manipulation:
 
-1. **Data Layer (`lang.json`):** Acts as a centralized database for both static UI translations and dynamic project content (descriptions, features, technologies).
+1. **Data Layer ("lang.json"):** Acts as a centralized database for both static UI translations and dynamic project content (descriptions, features, technologies).
 2. **Routing Logic:** Instead of creating multiple static HTML files for each project, the application queries the JSON object based on URL parameters to render the appropriate content on the fly.
 3. **State Management:** Browser `localStorage` is used to persist application state specifically for the selected language and visual theme.
 
